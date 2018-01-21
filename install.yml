@@ -1,0 +1,11 @@
+- name: Intelora System Status Neuron Install
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
+
+  tasks:
+    - name: "Install pip dependencies"
+      pip:
+        name: psutil
+        version: 5.1.3
