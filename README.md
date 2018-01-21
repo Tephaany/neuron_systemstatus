@@ -51,7 +51,3 @@ No option so far
           say_template: 
             - "I'm running on {{os}}, kernel {{os_version}}, with {{system_nb_cores}} cores.    C P U usage {{cpu}} %  memory usage {{memory}} %  disk usage {{disk}} %"
           cache: False
-```
-
-## Template example
-
