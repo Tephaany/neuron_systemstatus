@@ -1,6 +1,6 @@
 # intelora-system-status
 
-A neuron for Intelora to tell you system data
+A Neuron for giving a report about the system data
 
 
 Shamelessly inspired from https://github.com/edouardpoitras/jasper-status
@@ -8,7 +8,7 @@ Shamelessly inspired from https://github.com/edouardpoitras/jasper-status
 
 ## Synopsis
 
-Let Intelora tell you its status
+Make Intelora tell you its system status, including OS name, Kernel Version, Name of your host, Number of core, % of CPU usage, % of memory usage, and % of disk usage
 
 ## Installation
 
