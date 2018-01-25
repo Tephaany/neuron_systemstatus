@@ -1,6 +1,6 @@
 # intelora-system-status
 
-A neuron for Intelora to tell you system data
+A Neuron for Intelora to tell the system data including OS name, Kernel Version , Name of your host, Number of core, % of CPU usage, % of memory usage, and % of disk usage.
 
 
 Shamelessly inspired from https://github.com/edouardpoitras/jasper-status
@@ -8,7 +8,7 @@ Shamelessly inspired from https://github.com/edouardpoitras/jasper-status
 
 ## Synopsis
 
-Let Intelora tell you its status
+Make Intelora tell you its system status
 
 ## Installation
 
@@ -38,6 +38,15 @@ No option so far
 | memory         | % of memory usage                                                                     | String   | 32.1        |
 | disk           | % of disk usage                                                                       | String   | 11.5        |
 
+## Limitation
+Will only provide the following system status:
+OS name
+Kernel Version 
+Name of your host
+Number of core
+% of CPU usage
+% of memory usage
+% of disk usage
 
 ## Synapses example
 
